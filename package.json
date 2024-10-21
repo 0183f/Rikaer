@@ -1,1 +1,19 @@
-
+{
+  "name": "multiplayer-game-site",
+  "version": "1.0.0",
+  "description": "A multiplayer game platform with betting options.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.0.0",
+    "bcrypt": "^5.0.1",
+    "mongoose": "^6.0.0",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {},
+  "author": "Bishesh",
+  "license": "ISC"
+}
